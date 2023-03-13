@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="jquery-3.6.3.min.js" type="text/javascript"></script>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container shadow-lg mt-4">
+        <div class="row mt-3 mb-3">
+            <div class="col">
+                <p id="token"></p>
+            </div>
+        </div>
+        <div class="row shadow-lg bg-white mt-3">
+            <div class="col">
+                <div id="chartdiv" style="height: 250px;" class="mt-3"></div>
+            </div>
+        </div>
+        <div class="row shadow-lg bg-white mt-3">
+            <div class="col-6">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Site</th>
+                            <th>Cliques</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody_dash"></tbody>
+                </table>
+            </div>
+            <div class="col-6">
+                <div id="piechart" class="mt-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+        const USER = 9851;
+        const TOKEN = "812a7b988ed332284b15bd9c392c7c2b";
+
+        $('#token').text(`Dados da conta: ${USER}`)
+    </script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="js/charts.js"></script>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
