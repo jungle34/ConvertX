@@ -1,6 +1,6 @@
 ## ConvertX
 
-{c:red}This version is unfunctional because is alocate in my local server{/c}
+This version is unfunctional because is alocate in my local server
 
 #### Instalation
 
