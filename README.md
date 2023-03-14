@@ -1,5 +1,6 @@
 ## ConvertX
 
+! This version is unfunctional because is alocate in my local server
 
 #### Instalation
 
