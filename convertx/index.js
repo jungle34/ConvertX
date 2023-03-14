@@ -1,4 +1,6 @@
-
+/**
+ * MAIN CODE OF API SENSORS
+*/
 
 document.addEventListener('click', (event) => {
 
