@@ -1,15 +1,15 @@
 ## ConvertX
-=
+
 
 #### Instalation
-=
+
 
 Change the values and add into a empty script tag in html file of your site
 ```javascript 
         const USER = 9282;
         const TOKEN = "token";
 ```
-=
+
 
 Add these tags to your page to import the js files that will get the page actions
 ```HTML
